@@ -1,26 +1,17 @@
 import React from 'react'
-import Message from "./Message";
+import Message, {messageDataPropsType} from "./Message";
 
-
-export type messageDataPropsType = {
-    avatar: string,
-    name: string,
-    message: string,
-    time: string
+const messageData: messageDataPropsType = {
+    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    name: 'Some Name',
+    message: 'some text',
+    time: '22:00',
 }
 
 
 
 
 const HW1 = () => {
-
-    const messageData: messageDataPropsType = {
-        avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-        name: 'Some Name',
-        message: 'some text',
-        time: '22:00',
-    }
-
     return (
         <div>
             <hr/>
