@@ -1,0 +1,39 @@
+.message {
+    display:flex;
+    justify-content: space-around;
+    max-width: 300px;
+    background-color: green;
+}
+
+.message__image{
+    max-width: 70px;
+    border-radius: 50%;
+}
+
+
+.message__data{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    background-color: grey;
+    margin: 5px 0;
+    position: relative;
+
+}
+
+.message__data::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 180px;
+    display: block;
+    height: 10px;
+    width: 10px;
+    z-index: 1;
+    background: inherit;
+    border-radius: 20px 0 0 0;
+}
+
+.message__dataTime{
+margin-top: 50px;
+}
