@@ -21,3 +21,9 @@
 .some-text {
     color: darkslateblue;
 }
+.white {
+    background: white;
+}
+white-text {
+    color: black;
+}
